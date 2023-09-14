@@ -21,6 +21,6 @@ start project (iOS):
 ```
 expo start --ios
 ```
-#Preview 
+# Preview 
 
 <img src="https://raw.githubusercontent.com/gagtic/slide-button-demo/main/assets/preview.gif" alt="Animated GIF" style="max-width: 50px;">
