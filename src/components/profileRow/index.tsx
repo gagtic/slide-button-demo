@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
-import { Profile } from "../../types";
 import {
   heightPercentageToDP,
   widthPercentageToDP,
@@ -25,8 +24,8 @@ const ProfileRow: FC<IProfileRow> = ({ name, photo, location, jobTitle }) => {
       {marginViewHorizontal(3)}
       <View>
         <Text style={[styles.text, { fontSize: FONT_LARGE }]}>{name}</Text>
-        <Text style={[styles.text, { fontSize: FONT_SMALL }]}>{location}</Text>
         <Text style={[styles.text, { fontSize: FONT_SMALL }]}>{jobTitle}</Text>
+        <Text style={[styles.text, { fontSize: FONT_SMALL }]}>{location}</Text>
       </View>
     </View>
   );
@@ -41,7 +40,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: widthPercentageToDP(2),
   },
-  image: { width: IMAGE_SIZE, height: IMAGE_SIZE },
+  image: {
+    width: IMAGE_SIZE,
+    height: IMAGE_SIZE,
+    borderRadius: IMAGE_SIZE * 0.2,
+  },
   text: {
     color: "white",
   },
