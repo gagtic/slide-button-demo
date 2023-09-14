@@ -1,6 +1,6 @@
 # Animated Bottom Button Demo
 
-<img src="https://raw.githubusercontent.com/gagtic/slide-button-demo/main/assets/preview.gif" alt="Animated GIF" style="max-width: 150px;">
+<img src="https://raw.githubusercontent.com/gagtic/slide-button-demo/main/assets/preview.gif" alt="Animated GIF" style="max-width: 50px;">
 
 ## Installation
 
